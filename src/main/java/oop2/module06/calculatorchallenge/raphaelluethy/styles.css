@@ -1,0 +1,127 @@
+/** {*/
+/*    -fx-bg-color: #263240;*/
+/*    -fx-accent-color: #ef4e46;*/
+/*    -fx-main-text-color: #FFFFFF;*/
+/*}*/
+
+/*.root {*/
+/*    -fx-background-color: -fx-bg-color;*/
+/*    -fx-font-family: sans-serif;*/
+/*    -fx-font-size: 16px;*/
+/*}*/
+
+/*.button {*/
+/*    -fx-background-color: -fx-accent-color;*/
+/*    -fx-text-fill: -fx-main-text-color;*/
+/*    -fx-border-color: -fx-bg-color;*/
+/*    !*-fx-border-radius: 10em;*!*/
+/*    -fx-background-radius: 15em;*/
+/*}*/
+
+/*.button:hover {*/
+/*    -fx-background-color: derive(-fx-accent-color, -20%)*/
+/*}*/
+
+/*.label {*/
+/*    -fx-text-fill: #EEEEEE;*/
+/*}*/
+
+/*!***/
+/* * Name     : JavaFX FlatRed style*/
+/* * Publisher: Apress*/
+/* * Author   : Gerrit Grunwald*/
+/* **/
+/* *!*/
+/*.root {*/
+/*    -dark: #27292D;*/
+/*    -standard: #913B3B;*/
+/*    -bright: #DF5B5B;*/
+/*    -text-color: #FFFEFE;*/
+/*    -highlight-effect: dropshadow(two-pass-box, rgba(255, 255, 255, 1.0), 20, 0.5, 0, 0);*/
+/*    -fx-background: #34383B;*/
+/*    -fx-base: -standard;*/
+/*    -fx-font-family: "Roboto Light";*/
+/*    -fx-font-size: 16px;*/
+/*    -fx-font-weight: lighter;*/
+/*    -fx-selection-bar: -standard;*/
+/*    -fx-selection-bar-non-focused: derive(-standard, 20%);*/
+/*}*/
+
+/*.label {*/
+/*    -fx-padding: 10px;*/
+/*}*/
+
+
+/*.button {*/
+/*    -fx-text-fill: -text-color;*/
+/*    -fx-outer-border: linear-gradient(to bottom, derive(-standard, 30%) 0%, derive(-standard, -30%) 100%);*/
+/*    -fx-inner-border: derive(-bright, 10%);*/
+/*    -fx-body-color: -bright;*/
+/*    -fx-border-color: transparent;*/
+/*    -fx-border-radius: 0;*/
+/*    -fx-background-insets: 1px;*/
+/*    -fx-padding: 10 15 10 15;*/
+/*    -fx-font-family: "Roboto Light";*/
+/*    -fx-font-size: 16px;*/
+/*    -fx-font-style: normal;*/
+/*    -fx-font-weight: lighter;*/
+/*}*/
+
+/*.button:hover {*/
+/*    -fx-body-color: derive(-bright, -5%);*/
+/*}*/
+
+/*.button:pressed {*/
+/*    -fx-body-color: -standard;*/
+/*    -fx-inner-border: derive(-standard, 10%);*/
+/*}*/
+
+/*.borders {*/
+/*    -fx-border-color: rgba(255, 255, 255, .80);*/
+/*    -fx-border-style: dotted;*/
+/*    -fx-border-width: 1;*/
+/*    -fx-border-insets: -2;*/
+/*}*/
+
+.root {
+    -dark-black: #000000;
+    -dark-grey-900: #212121;
+    -dark-grey-800: #303030;
+    -dark-grey-700: #424242;
+    -dark-error: #CF6679;
+    -dark-primary: #3E50B4;
+    -dark-accent: #FF3F80;
+    -dark-secondary: #03DAC6;
+    -dark-on-primary: #000000;
+    -dark-on-secondary: #000000;
+    -dark-on-background: #FFFFFF;
+    -dark-on-surface: #FFFFFF;
+    -dark-on-error: #FFFFFF;
+
+    -fx-background-color: -dark-grey-900;
+    -fx-text-fill: -dark-on-background;
+    -fx-padding: 0.1em;
+    -fx-font-family: 'Fira Code';
+    -fx-font-size: 1.5em;
+}
+
+.button {
+    -fx-background-color: -dark-grey-800;
+    -fx-text-fill: -dark-on-background;
+    -fx-background-insets: 1px;
+    -fx-background-radius: 0;
+}
+.button:hover {
+    -fx-background-color: derive(-dark-grey-800, -15%);
+}
+
+.button:pressed {
+    -fx-background-color: derive(-dark-grey-800, -30%);
+}
+
+.label {
+    /*-fx-min-height: 50px;*/
+    -fx-text-fill: -dark-on-background;
+    -fx-background-color: -dark-primary;
+    -fx-padding: 5px;
+}
